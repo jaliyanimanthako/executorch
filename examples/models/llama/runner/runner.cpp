@@ -48,7 +48,7 @@ Runner::Runner(
       tokenizer_path_(tokenizer_path),
       metadata_({
           {kEnableDynamicShape, false},
-          {kMaxSeqLen, 128},
+          {kMaxSeqLen, 2048},
           {kUseKVCache, true},
           {kUseSDPAWithKVCache, false},
       }) {
